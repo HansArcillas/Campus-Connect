@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     const likeButtons = document.querySelectorAll('.post-actions button:first-child');
     const commentButtons = document.querySelectorAll('.post-actions .comment-button');
     const photoVideoButton = document.querySelector('.post-options .photo-video-button');

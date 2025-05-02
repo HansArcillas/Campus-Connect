@@ -146,6 +146,316 @@ nav ul li a:hover {
 .profile-card button:hover {
     background-color: #12733B;
 }
+.profile-header {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-pic.large {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: -60px;
+    left: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info-header {
+    padding: 20px;
+    padding-left: 150px; /* Adjust based on profile pic size and position */
+}
+
+.profile-details {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-details p {
+    margin-bottom: 8px;
+}
+
+.profile-details strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-activity {
+    padding: 20px;
+}
+
+.profile-activity h2 {
+    color: #0B6623;
+    margin-bottom: 15px;
+}
+
+.groups-filter,
+.events-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.groups-filter .filter-button,
+.events-filter .filter-button {
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.groups-filter .filter-button.active,
+.groups-filter .filter-button:hover,
+.events-filter .filter-button.active,
+.events-filter .filter-button:hover {
+    background-color: #0B6623;
+    color: #fff;
+    border-color: #0B6623;
+}
+.resources-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.resources-filter .filter-button {
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resources-filter .filter-button.active,
+.resources-filter .filter-button:hover {
+    background-color: #0B6623;
+    color: #fff;
+    border-color: #0B6623;
+}
+
+.resources-list .post {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.resources-list .post h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #0B6623;
+}
+
+.resources-list .post p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.resources-list .post a {
+    color: #007bff; /* Example link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resources-list .post a:hover {
+    text-decoration: underline;
+}
+
+.resource-category {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.my-groups {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.my-groups h3 {
+    color: #0B6623;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.suggestion-item p br {
+    display: none; /* Hide extra line breaks on larger screens */
+}
+        .login-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            color: #0B6623;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="password"]:focus {
+            border-color: #0B6623;
+            box-shadow: 0 0 5px rgba(11, 102, 35, 0.3);
+        }
+
+        .login-button {
+            background-color: #0B6623;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #12733B;
+        }
+
+        .signup-link {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .signup-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+       .admin-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0B6623;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .post-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .post-content {
+            flex-grow: 1;
+            margin-right: 15px;
+        }
+
+        .post-actions button {
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 12px;
+            cursor: pointer;
+            margin-left: 10px;
+           transition: background-color 0.3s ease;
+        }
+
+        .post-actions button.reject {
+            color: #dc3545;
+        }
+
+        .post-actions button:hover {
+            background-color: #0B6623;
+            color: white;
+        }
+        .post-actions button.reject:active{
+            background-color: #dc3545;
+            color: white;
+        }
+        .post-actions button.reject:hover {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .pending {
+            color: orange;
+            font-style: italic;
+        }
+
+@media (max-width: 600px) {
+    .suggestion-item p br {
+        display: block; /* Show line breaks on smaller screens for better readability */
+    }
+}
+
+.create-group-button {
+    background-color: #0B6623;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.create-group-button:hover {
+    background-color: #12733B;
+}
 
 /* Shortcuts */
 .shortcuts h4, .suggestions h4, .trending h4, .events h4, .resources h4 {
@@ -210,7 +520,7 @@ nav ul li a:hover {
 }
 
 .post-options button:hover {
-    background-color: #12733B;
+    background-color: white;
 }
 
 .post-options .post-button {
@@ -275,8 +585,121 @@ nav ul li a:hover {
     transition: color 0.3s ease;
 }
 
+
 .post-actions button:hover {
-    color: #12733B;
+    background-color: white;
+    color: white;
+}
+/* Styles for the Events Page */
+
+.groups-filter,
+.events-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.groups-filter .filter-button,
+.events-filter .filter-button {
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.groups-filter .filter-button.active,
+.groups-filter .filter-button:hover,
+.events-filter .filter-button.active,
+.events-filter .filter-button:hover {
+    background-color: #0B6623;
+    color: #fff;
+    border-color: #0B6623;
+}
+
+.my-events {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.my-events h3,
+.events h2 {
+    color: #0B6623;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.events .post {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.events .post h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.events .post p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.events .post strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.events .post button.rsvp-button,
+.events .post button.rsvpd {
+    background-color: #0B6623;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.events .post button.rsvpd {
+    background-color: #5cb85c; /* A green color indicating RSVP'd */
+}
+
+.events .post button.rsvp-button:hover {
+    background-color: #12733B;
+}
+
+.events .post button.reminder-button {
+    background-color: #f0ad4e; /* A yellow/orange color for reminder */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.events .post button.reminder-button:hover {
+    background-color: #d9534f; /* A darker red on hover */
+}
+
+/* Responsive adjustments for events page */
+@media (max-width: 600px) {
+    .events .post button.rsvp-button,
+    .events .post button.rsvpd,
+    .events .post button.reminder-button {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-right: 0;
+    }
 }
 
 /* Right Sidebar */
